@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #aa7878;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/* Navigation */
+nav a {
+    color: rgb(5, 0, 0);
+    margin: 90px;   /* Space between links */
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Prevent content hiding under header */
+.content {
+    margin-top: 120px;
+}
+
+/* Slides */
+.slide {
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+}
+
+.slide img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Different Backgrounds */
+.camera {
+    background-color: #3a4f79;
+}
+
+.processor {
+    background-color: #3a4f79;
+}
+
+.offer {
+    background-color: #3a4f79;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    border: ivory;
+    margin-top: 15px;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover {
+    
+    background-color: rgb(50, 44, 73);
+    color: rgb(0, 0, 0);
+    
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    margin: 6px 0;
+}
